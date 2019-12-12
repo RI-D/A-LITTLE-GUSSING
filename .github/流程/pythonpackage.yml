@@ -1,0 +1,19 @@
+a = ["cat","dog","panda"]
+print(a)
+b= input("ur animal: ")
+print(b.capitalize())
+if b in a:
+    v = f" ur chosen animal is {b}"
+    v.capitalize()
+    print(v)
+else:
+    print(f" Not on the list: {b}.")
+    print("enetr again: ")
+    c = input("ur animal is")
+    print(c.capitalize())
+    if c in a:
+        print(f"u have the correct choice: ")
+        print("Congratulation! ")
+    else:
+        print("Enter tommorrow please.😔") 
+        
